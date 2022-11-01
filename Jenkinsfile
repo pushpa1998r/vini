@@ -13,7 +13,7 @@ node {
 	    git credentialsId: 'pushpa', url: 'https://github.com/kartikeyapro/app.git'
 	}
 	stage ('Maven Package') {
-	    sh 'mvn --package'
+	    sh 'mvn package'
     }
 	
     
